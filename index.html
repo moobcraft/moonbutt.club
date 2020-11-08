@@ -4,12 +4,23 @@
 <style>
 * {
     font-family: sans-serif;
-    text-align: center
+    text-align: center;
+}
+.darkmode {
+    background-color: black;
+    color: white;
 }
 </style>
+<script>
+function toggleDark() {
+  var element = document.body;
+  element.classList.toggle("darkmode");
+}
+</script>
 </head>
 
 <body>
+<button onclick="toggleDark()">Dark Mode</button>
 <h1>Moobcraft</h1>
 <p>Connect with a Bedrock client to moonbutt.club<br/>
 Port: 19132 (default)</p>
