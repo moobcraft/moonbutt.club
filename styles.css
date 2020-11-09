@@ -14,11 +14,21 @@ h2 {
     font-size: 1.5em;
     padding-top: 25px;
 }
+a {
+    color: var(--moobcraftBlue);
+    text-decoration: none;
+}
+a:visited {
+    color: var(--moobcraftPink);
+}
+a:hover {
+    text-shadow: 0 0 15px;
+}
 .moob {
     color: var(--moobcraftBlue);
-    text-shadow: 0 0 15px var(--moobcraftBlue);
+    text-shadow: 0 0 15px;
 }
 .craft {
     color: var(--moobcraftPink);
-    text-shadow: 0 0 15px var(--moobcraftPink);
+    text-shadow: 0 0 15px;
 }
