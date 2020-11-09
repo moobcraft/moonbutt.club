@@ -12,6 +12,7 @@
 h1 {
     font-size: 5vw;
     text-shadow: 0 0 15px;
+    font-weight: 500;
 }
 /* secondary header, used only for contact currently */
 h2 {
