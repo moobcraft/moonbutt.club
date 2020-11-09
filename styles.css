@@ -4,6 +4,8 @@
     text-align: center;
     background-color: black;
     color: white;
+    --moobcraftBlue: #A6C3FC;
+    --moobcraftPink: #ECADFE;
 }
 h1 {
     font-size: 5vw;
@@ -13,10 +15,10 @@ h2 {
     padding-top: 25px;
 }
 .moob {
-    color: #AAC3FC;
-    text-shadow: 0 0 15px #A6C3FC;
+    color: var(--moobcraftBlue);
+    text-shadow: 0 0 15px var(--moobcraftBlue);
 }
 .craft {
-    color: #ECADFE;
-    text-shadow: 0 0 15px #ECADFE;
+    color: var(--moobcraftPink);
+    text-shadow: 0 0 15px var(--moobcraftPink);
 }
