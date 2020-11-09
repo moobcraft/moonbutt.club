@@ -1,0 +1,22 @@
+* {
+    font-family: "Open Sans";
+    font-size: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 5vw;
+}
+h2 {
+    font-size: 1.5em;
+    padding-top: 25px;
+}
+.moob {
+    color: #AAC3FC;
+    text-shadow: 0 0 15px #A6C3FC;
+}
+.craft {
+    color: #ECADFE;
+    text-shadow: 0 0 15px #ECADFE;
+}
