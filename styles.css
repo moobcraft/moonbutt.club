@@ -9,6 +9,7 @@
 }
 h1 {
     font-size: 5vw;
+    text-shadow: 0 0 15px;
 }
 h2 {
     font-size: 1.5em;
@@ -26,9 +27,7 @@ a:hover {
 }
 .moob {
     color: var(--moobcraftBlue);
-    text-shadow: 0 0 15px;
 }
 .craft {
     color: var(--moobcraftPink);
-    text-shadow: 0 0 15px;
 }
