@@ -1,3 +1,4 @@
+/* Main stuff, setting font, making the site dark themed, aligning to center and defining moobcraft colors */
 * {
     font-family: "Open Sans";
     font-size: 1em;
@@ -7,24 +8,30 @@
     --moobcraftBlue: #A6C3FC;
     --moobcraftPink: #ECADFE;
 }
+/* main header, make it scale along with the screen width and make it glow */
 h1 {
     font-size: 5vw;
     text-shadow: 0 0 15px;
 }
+/* secondary header, used only for contact currently, padded to separate it better */
 h2 {
     font-size: 1.5em;
     padding-top: 25px;
 }
+/* links should be the moobcraft blue color without an underline */
 a {
     color: var(--moobcraftBlue);
     text-decoration: none;
 }
+/* visited links will be moobcraft pink */
 a:visited {
     color: var(--moobcraftPink);
 }
+/* links will glow a bit when you hover over them */
 a:hover {
     text-shadow: 0 0 15px;
 }
+/* classes used in the main header to define the two colors */
 .moob {
     color: var(--moobcraftBlue);
 }
