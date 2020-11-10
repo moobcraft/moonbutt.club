@@ -31,6 +31,9 @@ a:visited {
 a:hover {
     text-shadow: 0 0 15px;
 }
+span {
+    background-color: transparent;
+}
 /* classes used in the main header to define the two colors */
 .moob {
     font-family: "Comfortaa"; /* not sure why i couldnt define this in h1 but it didnt work, so its here */
