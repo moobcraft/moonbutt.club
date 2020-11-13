@@ -34,6 +34,10 @@ a:hover {
 span {
     background-color: transparent;
 }
+iframe {
+    border: 0px;
+    border-radius: 4px;
+}
 /* classes used in the main header to define the two colors */
 .moob {
     font-family: "Comfortaa"; /* not sure why i couldnt define this in h1 but it didnt work, so its here */
