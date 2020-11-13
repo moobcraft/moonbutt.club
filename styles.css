@@ -10,7 +10,7 @@
 }
 
 /* main header, make it scale along with the screen width and make it glow */
-h1 span {
+h1, h1 span {
     font-size: 5vw;
     text-shadow: 0 0 15px;
     font-weight: 500;
