@@ -10,10 +10,12 @@
 }
 
 /* main header, make it scale along with the screen width and make it glow */
-h1 {
+h1 span {
     font-size: 5vw;
     text-shadow: 0 0 15px;
     font-weight: 500;
+    background-color: transparent;
+    font-family: "Comfortaa";
 }
 
 /* secondary header, used only for contact currently */
@@ -37,11 +39,6 @@ a:hover {
     text-shadow: 0 0 15px;
 }
 
-/* without this, the logo has fucky-ness */
-span {
-    background-color: transparent;
-}
-
 /* make discord thingy look how it should */
 iframe.discord {
     border: 0px;
@@ -50,10 +47,8 @@ iframe.discord {
 
 /* classes used in the main header to define the two colors */
 .moob {
-    font-family: "Comfortaa"; /* not sure why i couldnt define this in h1 but it didnt work, so its here */
     color: var(--moobcraftBlue);
-} 
+}
 .craft {
-    font-family: "Comfortaa";
     color: var(--moobcraftPink);
 }
