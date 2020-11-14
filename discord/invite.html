@@ -40,22 +40,8 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
                 </div>
             </strong>
         </div>
-        <a href="#" class="button buttonSize" style="background-color: #43b581;color: #fff" onclick="joinAnimation()">Join</a>
+        <a target="_blank" href="https://discord.gg/BUZf7Xy" class="button buttonSize" style="background-color: #43b581;color: #fff">Join</a>
     </div>
 </div>
-<script>
-    function joinAnimation() {
-        const pre_join = document.querySelector("a");
-        const joining = document.createElement("a");
-        const post_join = document.createElement("a");
-        joining.innerHTML = '<a href="#" class="button buttonSize loading" style="background-color: #43b581;color: #fff">Joining</a>';
-        post_join.innerHTML = '<a href="#" class="button buttonSize" style="background-color: #43b581;color: #fff">Join</a>';
-        pre_join.replaceWith(joining)
-        window.open("https://discord.gg/BUZf7Xy")
-        setTimeout(function () {
-            joining.replaceWith(post_join)
-        }, 3000)
-    }
-</script>
 </body>
 </html>
