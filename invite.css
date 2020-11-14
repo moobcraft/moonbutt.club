@@ -33,14 +33,6 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
     box-sizing: border-box
 }
 
-/* prevent user from highlighting */
-.userSelectNone {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
 .header {
     font-weight: 700;
     margin-bottom: 12px;
