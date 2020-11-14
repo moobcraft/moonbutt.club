@@ -38,6 +38,12 @@ a:hover {
     text-shadow: 0 0 15px;
 }
 
+span.contact {
+    -webkit-user-select: all; 
+    -ms-user-select: all;
+    user-select: all;
+}
+
 /* make discord thingy look how it should */
 iframe.discord {
     border: 0px;
