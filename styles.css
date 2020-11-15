@@ -10,7 +10,7 @@
 }
 
 /* main header, make it scale along with the screen width and make it glow */
-h1, h1 span {
+h1 {
     font-size: 5vw;
     text-shadow: 0 0 15px;
     font-weight: 500;
@@ -22,19 +22,19 @@ h2 {
     font-size: 1.5em;
 }
 
-/* links should be the moobcraft blue color without an underline */
-a {
+/* links and .moob classes should be the moobcraft blue color and links shouldn't have an underline */
+a, .moob {
     color: var(--moobcraftBlue);
     text-decoration: none;
 }
 
 /* visited links will be moobcraft pink */
-a:visited {
+a:visited, .craft {
     color: var(--moobcraftPink);
 }
 
-/* links will glow a bit when you hover over them */
-a:hover {
+/* links and click-to-highlight stuff will glow a bit when you hover over them */
+a:hover, .ezHighlight:hover {
     text-shadow: 0 0 15px;
 }
 
@@ -48,12 +48,4 @@ a:hover {
 iframe.discord {
     border: 0px;
     border-radius: 4px;
-}
-
-/* classes used in the main header to define the two colors */
-.moob {
-    color: var(--moobcraftBlue);
-}
-.craft {
-    color: var(--moobcraftPink);
 }
