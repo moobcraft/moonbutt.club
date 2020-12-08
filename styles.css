@@ -7,6 +7,8 @@
     color: white;
     --moobcraftBlue: #A6C3FC;
     --moobcraftPink: #ECADFE;
+    width: 50%;
+    margin: auto;
 }
 
 /* main header, make it scale along with the screen width and make it glow */
