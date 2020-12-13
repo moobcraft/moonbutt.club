@@ -11,11 +11,21 @@
     margin: auto;
 }
 
+/* the fonts */
+@font-face {
+    font-family: "Comfortaa";
+    src: url(assets/Comfortaa.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(assets/OpenSans-Regular.ttf);
+}
+
 /* main header, make it scale along with the screen width and make it glow */
 h1 {
     font-size: 5vw;
     text-shadow: 0 0 15px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Comfortaa";
 }
 
