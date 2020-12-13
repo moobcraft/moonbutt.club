@@ -23,7 +23,7 @@
 
 /* main header, make it scale along with the screen width and make it glow */
 h1 {
-    font-size: 5vw;
+    font-size: 4em;
     text-shadow: 0 0 15px;
     font-weight: 300;
     font-family: "Comfortaa";
