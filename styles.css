@@ -55,9 +55,3 @@ a:hover, .ezHighlight:hover {
     -ms-user-select: all;
     user-select: all;
 }
-
-/* make discord thingy look how it should */
-iframe.discord {
-    border: 0px;
-    border-radius: 4px;
-}
