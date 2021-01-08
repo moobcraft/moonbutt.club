@@ -7,7 +7,7 @@
     color: white;
     --moobcraftBlue: #A6C3FC;
     --moobcraftPink: #ECADFE;
-    width: 40em;
+    width: 60%;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@
 
 /* main header, make it scale along with the screen width and make it glow */
 h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     text-shadow: 0 0 15px;
     font-weight: 300;
     font-family: "Comfortaa";
@@ -55,3 +55,8 @@ a:hover, .ezHighlight:hover {
     -ms-user-select: all;
     user-select: all;
 }
+@media screen and (max-width:500px) {
+    :root {
+      width: 95%;
+    }
+  }
