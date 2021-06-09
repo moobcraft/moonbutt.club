@@ -7,8 +7,9 @@
         <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
-        <h1><span class='moob'>Moob</span><span class="craft">craft</span></h1>
-        <h2>404: Page not found</h2>
-        <p>idfk how you got here, but <a href="./">here's the homepage</a> lol</p>
+	    <?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
+        <h2>403: Forbidden</h2>
+        <p>are you snooping around? <a href="/">let's go back home</a></p>
     </body>
 </html>
+ 

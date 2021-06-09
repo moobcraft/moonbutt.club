@@ -11,12 +11,12 @@
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1><a href='index.html'><span class='moob'>Moob</span><span class="craft">craft</span></a></h1>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
         <p>Connact using either Java or Bedrock!</p>
 	<p>On Java, just connect to moonbutt.club normally.
        <br>On Bedrock, connect to moonbutt.club but change the port to 42069.</p>
 	<p>For number nerds, some analytics are available <a href=/analytics/>here</a> uwu</p>
         <iframe height=700 width=100% src="/dynmap/"></iframe>
-	<p><a href="https://github.com/moobcraft/moonbutt.club"><img src="assets/GitHub-Mark-Light.png" style="width:2em" alt="View on GitHub"></a></p>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/common/github.html'); ?>
     </body>
 </html>

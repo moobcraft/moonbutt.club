@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1><a href='index.html'><span class='moob'>Moob</span><span class="craft">craft</span></a></h1>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
         <p>Connect with a Bedrock client to <span class=ezHighlight>moonbutt.club</span><br>
         Port: <span class=ezHighlight>19132</span> (default)<br>
         On Bedrock version <span class=ezHighlight>1.16.201.3</span><br>
@@ -25,6 +25,6 @@
         (Instagram isn't checked at all)</p>
 	<p><a href=pgp.txt>PGP Key</a></p>
 	<p>psst... i'm doing something neat i think. check out <a href=/beta>/beta</a></p>
-        <p><a href="https://github.com/moobcraft/moonbutt.club"><img src="assets/GitHub-Mark-Light.png" style="width:2em" alt="View on GitHub"></a></p>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/github.html'); ?>
     </body>
 </html>

@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1><a href='./index.html'><span class='moob'>Moob</span><span class="craft">craft</span></a></h1>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
         <h2>Server Rules</h2>
         <h3>Don't be a dick</h3>
         <p>
@@ -33,6 +33,6 @@ interact with blocks, or "banned" as far as Bedrock allows me, which is really
 just a hidden command block repeatedly running /kick because bedrock is dumb.
 If you've been punished you can contact Cesium#5061 in the Discord server.
         </p>
-        <p><a href="https://github.com/moobcraft/moonbutt.club"><img src="assets/GitHub-Mark-Light.png" style="width:2em" alt="View on GitHub"></a></p>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/github.html'); ?>
     </body>
 </html>
