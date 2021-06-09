@@ -4,11 +4,9 @@
     <head>
         <title>Moobcraft</title>
         <meta name="Description" content="Website for the Minecraft server hosted for a few friends">
-	<meta content="#ecadfe" name="theme-color">
-	<meta property="og:title" content="Moobcraft">
-    <meta property="og:description" content="dumb serve.r">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+        <meta property="og:description" content="dumb serve.r">
+        <meta property="og:title" content="Moobcraft">
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>

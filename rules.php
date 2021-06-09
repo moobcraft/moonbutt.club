@@ -3,9 +3,7 @@
 <meta charset="UTF-8">
     <head>
         <title>Rules</title>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
 	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
