@@ -14,7 +14,7 @@
 	<p>On Java, just connect to moonbutt.club normally.
        <br>On Bedrock, connect to moonbutt.club but change the port to 42069.</p>
 	<p>For number nerds, some analytics are available <a href=/analytics/>here</a> uwu</p>
-        <iframe height=700 width=100% src="/dynmap/"></iframe>
+        <iframe height=700 width=100% src="/dynmap/" frameBorder="0"></iframe>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/common/github.html'); ?>
     </body>
 </html>
