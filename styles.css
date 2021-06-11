@@ -32,6 +32,7 @@ h1 {
 .motd {
     margin-top: 0;
     margin-bottom: 30px;
+    font-family: "Comfortaa";
 }
 
 /* secondary header, used only for contact currently */
