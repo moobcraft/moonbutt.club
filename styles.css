@@ -27,6 +27,11 @@ h1 {
     text-shadow: 0 0 15px;
     font-weight: 300;
     font-family: "Comfortaa";
+    margin-bottom: 0;
+}
+.motd {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 /* secondary header, used only for contact currently */

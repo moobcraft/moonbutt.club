@@ -6,7 +6,7 @@
         <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.php'); ?>
         <h2>Server Rules</h2>
         <h3>Don't be a dick</h3>
         <p>

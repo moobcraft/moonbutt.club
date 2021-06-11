@@ -9,7 +9,7 @@
         <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.php'); ?>
         <p>Connect with a Bedrock or Java client to <span class=ezHighlight>moonbutt.club</span><br>
         On Java version <span class=ezHighlight>1.16.5</span><br>
         <a href='/rules'>Server Rules</a><br>

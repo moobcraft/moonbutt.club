@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.php'); ?>
         <h2>404: Page not found</h2>
         <p>idfk how you got here, but <a href="/">here's the homepage</a> lol</p>
     </body>

@@ -9,7 +9,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.html'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.php'); ?>
         <p>Connact using either Java or Bedrock!</p>
 	<p>On Java, just connect to moonbutt.club normally.
        <br>On Bedrock, connect to moonbutt.club but change the port to 42069.</p>
