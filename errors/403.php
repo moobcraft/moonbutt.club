@@ -3,8 +3,7 @@
 <meta charset="UTF-8">
     <head>
         <title>Moobcraft</title>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/styles.css">
+        <?php include($_SERVER['DOCUMENT_ROOT'].'/common/head-junk.html'); ?>
     </head>
     <body>
 	    <?php include($_SERVER['DOCUMENT_ROOT'].'/common/header.php'); ?>
