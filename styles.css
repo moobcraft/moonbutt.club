@@ -33,6 +33,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 30px;
     font-family: "Comfortaa";
+    text-shadow: 0 0 15px;
 }
 
 /* secondary header, used only for contact currently */
